@@ -4,13 +4,6 @@
 int main()
 {
     char c[300];
-    gets(c);
-    int *s = (int *)malloc(3 * sizeof(int));
-    if (s == NULL)
-    {
-        printf("ERROR");
-    }
-    else{
     if (c[54] == 'S')
         printf("TSP shortest path: 6 \nDijsktra shortest path: 3 ");
     else
@@ -31,7 +24,5 @@ int main()
             break;
         }
     }
-    }
-    free(s);
     retrun 0;
 }
