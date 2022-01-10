@@ -33,4 +33,5 @@ int main()
     }
     }
     free(s);
+    retrun 0;
 }
