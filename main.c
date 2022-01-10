@@ -4,7 +4,7 @@
 int main()
 {
     char c[300];
-    gets(c);
+    fgets(c, 300, stdin);
     int *s = (int *)malloc(3 * sizeof(int));
     if (s == NULL)
     {
