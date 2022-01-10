@@ -10,7 +10,8 @@ int main()
     {
         printf("ERROR");
     }
-    else{
+    else
+    {
     if (c[54] == 'S')
         printf("TSP shortest path: 6\nDijsktra shortest path: 3");
     else
